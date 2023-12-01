@@ -1,0 +1,118 @@
+/* Import Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset default styles and set global font family */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body styles */
+body {
+    width: 100%;
+    background-color: #FDFDFD; /* Light Ivory background */
+    color: #3f3d3d; /* Dark Gray text */
+}
+
+/* header heading section */
+#heading {
+    margin-top: 100px;
+    color: #0e0202; /* Tomato Red */
+}
+
+/* header navbar styles */
+#nav {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: #388e3c; /* Deep Green */
+}
+
+/* header search bar section */
+#search-bar {
+    max-width: 600px;
+}
+
+#search-bar input {
+    height: 50px;
+    border-radius: 20px;
+    background-color: #FFF5E1; /* Vanilla Ice Cream */
+}
+
+/* meal card styles */
+#card {
+    background-color: #ebda7a; /* Gold */
+    padding: 10px;
+    color: #333;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#card img {
+    border-radius: 50%;
+}
+
+/* meal details container styles*/
+#meal-details {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #f0dd4c; /* Gold */
+    color: #333;
+}
+
+#meal-header {
+    width: 70%;
+    margin: auto;
+}
+
+#meal-thumbail img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+#meal-instruction {
+    margin: auto;
+    text-align: center;
+}
+
+
+/* favourites offcanvas styles */
+#favourites-body {
+    background-color: rgb(225, 234, 236); /*  */
+}
+
+
+/* Updated style for the toast */
+.toast {
+    position: fixed;
+    top: 50px; /* Adjust the top value to position it below the header */
+    right: 10px;
+    background-color: #28a745; /* Green background color */
+    color: #fff; /* White text color */
+    border-radius: 8px;
+    max-width: 300px;
+    z-index: 10000; /* Ensure it appears above other elements */
+}
+
+
+/* Add this style for the active state of the favorite button */
+.favorite-btn.active {
+    color: red; /* Change the color to red or any other color you prefer */
+}
+
+/* Add this style for the clicked state of the favorite button */
+.favorite-btn.clicked {
+    background-color: red; /* Change the color to your preferred color */
+    border-color: white; /* Change the border color accordingly */
+    color: white; /* Change the text color if needed */
+}
+
