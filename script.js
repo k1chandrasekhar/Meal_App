@@ -150,7 +150,7 @@ async function showFavMealList() {
   let html = "";
   if (arr.length === 0) {
     // Display a message if no meals are added to favorites
-    html += `<p>No meal added in your favourites list.</p>`;
+    html += `<p>Meals added to favourites will be shown here.</p>`;
   } else {
     // Loop through each meal in the favorites list and create meal cards
     for (let id of arr) {
