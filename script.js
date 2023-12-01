@@ -66,9 +66,11 @@ async function showMealDetails(id) {
               <h5 class="text-center">Instruction :</h5>
               <p>${data.meals[0].strInstructions}</p>
           </div>
+          
           <div class="text-center">
-              <a href="${data.meals[0].strYoutube}" target="_blank" class="btn btn-outline-light mt-3">Watch Video</a>
+              <a href="${data.meals[0].strYoutube}" target="_blank" class="btn btn-danger mt-3">Watch Video</a>
           </div>
+
       </div>
       `;
   });
